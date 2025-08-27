@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Junior Data Entry Assistant",
+    "company": "Nimbus Tech",
+    "location": "Remote (South Africa)",
+    "type": "Remote",
+    "level": "Graduate",
+    "salary": "R12,000\u2013R18,000 p/m",
+    "summary": "Entry-level role assisting with data cleansing and spreadsheet updates for an e-commerce client. Training provided.",
+    "apply_url": "https://example.com/apply/data-entry"
+  },
+  {
+    "title": "Graduate Marketing Intern",
+    "company": "BrightWave Media",
+    "location": "Cape Town / Remote Hybrid",
+    "type": "Remote",
+    "level": "Graduate",
+    "salary": "R8,000 stipend",
+    "summary": "Create social content, assist with campaign reports, and learn paid ads. Great for recent grads.",
+    "apply_url": "https://example.com/apply/marketing-intern"
+  },
+  {
+    "title": "Remote Customer Support Associate",
+    "company": "CloudCart",
+    "location": "Remote (Johannesburg preferred)",
+    "type": "Remote",
+    "level": "Entry",
+    "salary": "R15,000\u2013R20,000 p/m",
+    "summary": "Help SMB merchants via chat and email. Weekend rotation. Training and equipment allowance.",
+    "apply_url": "https://example.com/apply/support"
+  },
+  {
+    "title": "Junior Web Content Editor",
+    "company": "EduPlus Online",
+    "location": "Remote",
+    "type": "Remote",
+    "level": "Graduate",
+    "salary": "R14,000\u2013R19,000 p/m",
+    "summary": "Proofread, format, and publish learning materials. Familiarity with WordPress is a plus.",
+    "apply_url": "https://example.com/apply/content-editor"
+  },
+  {
+    "title": "Graduate Finance Assistant",
+    "company": "FinSight",
+    "location": "Durban / Remote Hybrid",
+    "type": "Remote",
+    "level": "Graduate",
+    "salary": "R10,000\u2013R14,000 p/m",
+    "summary": "Support monthly reconciliations and invoicing. Ideal for BCom graduates.",
+    "apply_url": "https://example.com/apply/finance-assistant"
+  }
+]

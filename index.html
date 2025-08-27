@@ -1,0 +1,143 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WorkRemoteSA – Remote & Graduate Jobs in South Africa</title>
+  <meta name="description" content="Find remote and graduate jobs in South Africa. Post jobs, browse curated listings, and get weekly job alerts at WorkRemoteSA.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/logo.svg">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.svg" alt="WorkRemoteSA logo" width="32" height="32">
+      <span>WorkRemoteSA</span>
+    </a>
+    <nav>
+      <a href="jobs.html">Find Jobs</a>
+      <a href="post-job.html">Post a Job</a>
+      <a href="employers.html">For Employers</a>
+      <a href="graduates.html">For Graduates</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="btn primary" href="post-job.html">Post a Job</a>
+  </div>
+</header>
+<main>
+
+<section class="hero">
+  <div class="container wrap">
+    <span class="kicker">South Africa · Remote & Graduate</span>
+    <h1>Find Remote & Graduate Jobs in South Africa</h1>
+    <p>Discover curated opportunities for graduates and early-career professionals. Employers can post jobs in minutes and reach motivated SA talent.</p>
+    <div class="inline">
+      <a class="btn primary" href="jobs.html">Browse Jobs</a>
+      <a class="btn" href="post-job.html">Post a Job</a>
+    </div>
+    <div class="section">
+      <form class="search-bar" onsubmit="event.preventDefault();window.location='jobs.html'">
+        <input type="text" placeholder="Job title or keyword">
+        <select>
+          <option value="">Type</option>
+          <option>Remote</option>
+          <option>Hybrid</option>
+          <option>On-site</option>
+        </select>
+        <input type="text" placeholder="Location (optional)">
+        <button class="btn">Search Jobs</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Featured Jobs</h2>
+    <div class="cards">
+      <div class="card">
+        <span class="badge">Remote</span>
+        <h3>Junior Data Entry Assistant</h3>
+        <p class="small">Nimbus Tech · Remote (South Africa)</p>
+        <a class="btn" href="jobs.html">Apply</a>
+      </div>
+      <div class="card">
+        <span class="badge">Remote</span>
+        <h3>Graduate Marketing Intern</h3>
+        <p class="small">BrightWave Media · Cape Town / Remote</p>
+        <a class="btn" href="jobs.html">Apply</a>
+      </div>
+      <div class="card">
+        <span class="badge">Remote</span>
+        <h3>Remote Customer Support Associate</h3>
+        <p class="small">CloudCart · Remote</p>
+        <a class="btn" href="jobs.html">Apply</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container value-grid">
+    <div class="card">
+      <h3>🎯 Focused on SA Talent</h3>
+      <p>We spotlight remote and graduate roles tailored to South Africans—no endless scrolling.</p>
+    </div>
+    <div class="card">
+      <h3>🌍 Remote-First</h3>
+      <p>Work from anywhere in SA. We curate verified remote employers and early-career roles.</p>
+    </div>
+    <div class="card">
+      <h3>⚡ Fast & Simple</h3>
+      <p>Easy applications, weekly alerts, and employer tools that save time.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand-row">
+        <img src="assets/logo.svg" alt="WorkRemoteSA logo" width="28" height="28">
+        <strong>WorkRemoteSA</strong>
+      </div>
+      <p>Connecting South African graduates & professionals with remote work.</p>
+      <p>© 2025 WorkRemoteSA.co.za</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="jobs.html">Find Jobs</a></li>
+        <li><a href="post-job.html">Post a Job</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Use</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Newsletter</h4>
+      <form class="newsletter" action="mailto:subscribe@WorkRemoteSA.co.za" method="post" enctype="text/plain">
+        <input type="email" name="email" placeholder="Your email" required>
+        <button class="btn">Subscribe</button>
+      </form>
+      <small>Get weekly job alerts.</small>
+    </div>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

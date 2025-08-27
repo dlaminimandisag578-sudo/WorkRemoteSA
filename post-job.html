@@ -1,0 +1,134 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WorkRemoteSA – Remote & Graduate Jobs in South Africa</title>
+  <meta name="description" content="Find remote and graduate jobs in South Africa. Post jobs, browse curated listings, and get weekly job alerts at WorkRemoteSA.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/logo.svg">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.svg" alt="WorkRemoteSA logo" width="32" height="32">
+      <span>WorkRemoteSA</span>
+    </a>
+    <nav>
+      <a href="jobs.html">Find Jobs</a>
+      <a href="post-job.html">Post a Job</a>
+      <a href="employers.html">For Employers</a>
+      <a href="graduates.html">For Graduates</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="btn primary" href="post-job.html">Post a Job</a>
+  </div>
+</header>
+<main>
+
+<section class="section">
+  <div class="container">
+    <h1>Post a Job</h1>
+    <div class="notice small">No backend is configured in this demo. Set your form handler (e.g., Formspree/Netlify) in the README to collect submissions.</div>
+    <form class="form" action="https://formspree.io/f/your-id" method="POST">
+      <div class="inline">
+        <div style="flex:1">
+          <label>Company Name</label>
+          <input name="company" required>
+        </div>
+        <div style="flex:1">
+          <label>Contact Email</label>
+          <input type="email" name="email" required>
+        </div>
+      </div>
+      <div class="inline">
+        <div style="flex:1">
+          <label>Job Title</label>
+          <input name="title" required>
+        </div>
+        <div style="flex:1">
+          <label>Location</label>
+          <input name="location" placeholder="Remote (South Africa)">
+        </div>
+      </div>
+      <div class="inline">
+        <div style="flex:1">
+          <label>Job Type</label>
+          <select name="type" required>
+            <option>Remote</option>
+            <option>Hybrid</option>
+            <option>On-site</option>
+          </select>
+        </div>
+        <div style="flex:1">
+          <label>Seniority</label>
+          <select name="level" required>
+            <option>Graduate</option>
+            <option>Entry</option>
+            <option>Junior</option>
+          </select>
+        </div>
+      </div>
+      <label>Salary Range (optional)</label>
+      <input name="salary" placeholder="e.g., R15,000–R20,000 p/m">
+      <label>Summary</label>
+      <textarea name="summary" rows="5" required placeholder="Short role description…"></textarea>
+      <label>Application URL</label>
+      <input name="apply_url" placeholder="https://... or mailto:hr@company.com" required>
+      <hr class="sep">
+      <div class="inline">
+        <button class="btn primary" type="submit">Submit Job</button>
+        <a class="btn" href="pricing.html">View Pricing</a>
+      </div>
+      <p class="small">By submitting, you agree to our <a href="terms.html">Terms</a>.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand-row">
+        <img src="assets/logo.svg" alt="WorkRemoteSA logo" width="28" height="28">
+        <strong>WorkRemoteSA</strong>
+      </div>
+      <p>Connecting South African graduates & professionals with remote work.</p>
+      <p>© 2025 WorkRemoteSA.co.za</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="jobs.html">Find Jobs</a></li>
+        <li><a href="post-job.html">Post a Job</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Use</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Newsletter</h4>
+      <form class="newsletter" action="mailto:subscribe@WorkRemoteSA.co.za" method="post" enctype="text/plain">
+        <input type="email" name="email" placeholder="Your email" required>
+        <button class="btn">Subscribe</button>
+      </form>
+      <small>Get weekly job alerts.</small>
+    </div>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

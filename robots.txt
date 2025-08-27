@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://WorkRemoteSA.co.za/sitemap.xml
